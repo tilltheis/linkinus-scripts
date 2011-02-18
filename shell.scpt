@@ -1,3 +1,6 @@
+-- Execute a shell script and send output as message.
+-- Updated by Till Theis (http://www.tilltheis.de)
+
 -- Thanks to http://foolsworkshop.com/applescript/2008/05/an-applescript-replace-text-method/
 on replaceText(find, replace, subject)
     set prevTIDs to text item delimiters of AppleScript
