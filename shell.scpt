@@ -15,6 +15,6 @@ on linkinuscmd(cmd)
     set nl to ASCII character 10
     set cr to ASCII character 13
     do shell script cmd
-set resultWithNewlines to replaceText(cr, nl, result)
+    set resultWithNewlines to replaceText(cr, nl, result)
     set theResult to the resultWithNewlines as string
 end linkinuscmd
